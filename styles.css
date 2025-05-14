@@ -33,9 +33,9 @@ header {
 
 .search-input {
     width: 100%;
-    padding: 12px 50px 12px 20px;
+    padding: 12px 55px 12px 20px;
     border: 2px solid #e0e0e0;
-    border-radius: 30px;
+    border-radius: 10px;
     font-size: 16px;
     outline: none;
     transition: all 0.3s ease;
@@ -82,19 +82,29 @@ a {
 
 
 .demo {
-    padding: 12px 25px;
+    padding: 12px 20px;
     background-color: #000;
     color: white;
     border: none;
-    border-radius: 25px;
+    border-radius: 10px;
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
+    width: 200px;
     
 }
-header h1 {
-    margin: 0;
-    font-size: 2.5rem;
+.main-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px auto 120px auto;
+}
+h1 {
+    margin: 10px;
+    font-size: 75px;
+    font-weight: bold;
+    font-weight: 200px;
+    
 }
 
 .stats {
