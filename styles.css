@@ -97,7 +97,33 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 70px auto 120px auto;
+    margin: auto;
+    padding: auto;
+    
+}
+.main-info-left {
+    width: 525px;
+}
+.main-info-text {
+    font-size: 20px;
+    color: #1F1F1F;
+}
+.main-info-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.create-nft {
+    
+    padding: 12px 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border:1px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 200px;
 }
 h1 {
     margin: 10px;
@@ -118,12 +144,16 @@ h1 {
     font-size: 1.2rem;
 }
 
-main {
+.container {
     max-width: 1200px;
     margin: 2rem auto;
-    padding: 0 1rem;
+    display: flex;
 }
-
+.main-info{
+    background-image: url(assets/Hero\ Header.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+}
 section {
     margin-bottom: 3rem;
     background-color: white;
